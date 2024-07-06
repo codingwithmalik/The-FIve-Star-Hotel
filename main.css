@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#maincontent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#head2desc {
+  align-self: flex-start;
+  padding-left: 10vw;
+}
+
+.opinions {
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: whitesmoke;
+  line-height: 45px;
+}
+#yellowopinion {
+  color: #cbab02;
+}
+#desc {
+  padding-top: 20px;
+  color: whitesmoke;
+  font-size: 19px;
+  width: 60%;
+  text-align: justify;
+  line-height: 30px;
+}
+#girlimg {
+  align-self: baseline;
+}
+img#girl {
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+button#booknow {
+  padding: 15px 30px;
+  border-radius: 25px;
+  color: white;
+  background-color: #cbab02;
+  border: none;
+  font-size: 18px;
+}
+div#bookingbutton {
+  padding: 25px 20%;
+}
+footer {
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* justify-items: ; */
+}
+#yticon,
+#instaicon,
+#fbicon,
+#gticon {
+  padding: 0px 10px;
+}

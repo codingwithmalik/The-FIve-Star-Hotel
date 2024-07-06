@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+  background-image: url(designedbg.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+h1 {
+  padding-left: 8vw;
+  font-size: 24px;
+  color: white;
+}
+nav#mainnavbar {
+  margin: 20px;
+}
+#panel-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+  padding: 20px;
+}
+
+ul#mainnavbarlist {
+  display: flex;
+  list-style: none;
+  align-content: center;
+  justify-content: center;
+}
+a.mainlinks {
+  text-decoration: none;
+  color: black;
+  padding: 50px;
+  color: white;
+  font-size: 16px;
+}
+#bookroomlink {
+  padding: 7px 15px;
+  color: black;
+  background-color: #cbab02;
+  border-radius: 40px;
+}
+#profilepic {
+  padding-left: 40px;
+  padding-right: 10px;
+}
+a#myaccountlink {
+  padding-left: 5px;
+}
